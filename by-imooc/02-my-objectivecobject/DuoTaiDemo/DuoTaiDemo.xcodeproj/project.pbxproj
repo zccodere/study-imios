@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		597FE4D41EC2AEED006645E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 597FE4D31EC2AEED006645E5 /* main.m */; };
+		597FE4DC1EC2AF28006645E5 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 597FE4DB1EC2AF28006645E5 /* Printer.m */; };
+		597FE4DF1EC2AFD6006645E5 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 597FE4DE1EC2AFD6006645E5 /* ColorPrinter.m */; };
+		597FE4E21EC2AFF9006645E5 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 597FE4E11EC2AFF9006645E5 /* BlackPrinter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		597FE4CE1EC2AEED006645E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		597FE4D01EC2AEED006645E5 /* DuoTaiDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DuoTaiDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		597FE4D31EC2AEED006645E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		597FE4DA1EC2AF28006645E5 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		597FE4DB1EC2AF28006645E5 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		597FE4DD1EC2AFD6006645E5 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
+		597FE4DE1EC2AFD6006645E5 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
+		597FE4E01EC2AFF9006645E5 /* BlackPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackPrinter.h; sourceTree = "<group>"; };
+		597FE4E11EC2AFF9006645E5 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		597FE4CD1EC2AEED006645E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		597FE4C71EC2AEED006645E5 = {
+			isa = PBXGroup;
+			children = (
+				597FE4D21EC2AEED006645E5 /* DuoTaiDemo */,
+				597FE4D11EC2AEED006645E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		597FE4D11EC2AEED006645E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				597FE4D01EC2AEED006645E5 /* DuoTaiDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		597FE4D21EC2AEED006645E5 /* DuoTaiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				597FE4D31EC2AEED006645E5 /* main.m */,
+				597FE4DA1EC2AF28006645E5 /* Printer.h */,
+				597FE4DB1EC2AF28006645E5 /* Printer.m */,
+				597FE4DD1EC2AFD6006645E5 /* ColorPrinter.h */,
+				597FE4DE1EC2AFD6006645E5 /* ColorPrinter.m */,
+				597FE4E01EC2AFF9006645E5 /* BlackPrinter.h */,
+				597FE4E11EC2AFF9006645E5 /* BlackPrinter.m */,
+			);
+			path = DuoTaiDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		597FE4CF1EC2AEED006645E5 /* DuoTaiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597FE4D71EC2AEED006645E5 /* Build configuration list for PBXNativeTarget "DuoTaiDemo" */;
+			buildPhases = (
+				597FE4CC1EC2AEED006645E5 /* Sources */,
+				597FE4CD1EC2AEED006645E5 /* Frameworks */,
+				597FE4CE1EC2AEED006645E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuoTaiDemo;
+			productName = DuoTaiDemo;
+			productReference = 597FE4D01EC2AEED006645E5 /* DuoTaiDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		597FE4C81EC2AEED006645E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.zccoder;
+				TargetAttributes = {
+					597FE4CF1EC2AEED006645E5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 597FE4CB1EC2AEED006645E5 /* Build configuration list for PBXProject "DuoTaiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 597FE4C71EC2AEED006645E5;
+			productRefGroup = 597FE4D11EC2AEED006645E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				597FE4CF1EC2AEED006645E5 /* DuoTaiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		597FE4CC1EC2AEED006645E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597FE4DF1EC2AFD6006645E5 /* ColorPrinter.m in Sources */,
+				597FE4DC1EC2AF28006645E5 /* Printer.m in Sources */,
+				597FE4E21EC2AFF9006645E5 /* BlackPrinter.m in Sources */,
+				597FE4D41EC2AEED006645E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		597FE4D51EC2AEED006645E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		597FE4D61EC2AEED006645E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		597FE4D81EC2AEED006645E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		597FE4D91EC2AEED006645E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		597FE4CB1EC2AEED006645E5 /* Build configuration list for PBXProject "DuoTaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597FE4D51EC2AEED006645E5 /* Debug */,
+				597FE4D61EC2AEED006645E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		597FE4D71EC2AEED006645E5 /* Build configuration list for PBXNativeTarget "DuoTaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597FE4D81EC2AEED006645E5 /* Debug */,
+				597FE4D91EC2AEED006645E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 597FE4C81EC2AEED006645E5 /* Project object */;
+}
