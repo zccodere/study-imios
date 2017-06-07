@@ -9,6 +9,9 @@ iOS开发学习的所有源代码均保存在该资源库中。
 by-imooc 
 ------
 
+* 2017-2017052301：08-my-webrequest<br>
+慕课网《iOS基础教程-网络操作》学习源码
+
 * 2017-2017052101：07-my-conflictresolver<br>
 慕课网《一起来做价值百万的Apple Watch App：分歧终端机》学习源码
 
